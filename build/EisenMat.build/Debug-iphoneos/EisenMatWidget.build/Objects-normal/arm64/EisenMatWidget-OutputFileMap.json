@@ -1,0 +1,79 @@
+{
+  "" : {
+    "diagnostics" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/EisenMatWidget-primary.dia",
+    "emit-module-dependencies" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/EisenMatWidget-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/EisenMatWidget-primary-emit-module.dia",
+    "pch" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/EisenMatWidget-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/EisenMatWidget-primary.swiftdeps"
+  },
+  "/Users/chrislangseth/work/EisenMat/EisenMat/Models/Quadrant.swift" : {
+    "const-values" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/Quadrant.swiftconstvalues",
+    "dependencies" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/Quadrant.d",
+    "diagnostics" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/Quadrant.dia",
+    "index-unit-output-path" : "/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/Quadrant.o",
+    "llvm-bc" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/Quadrant.bc",
+    "object" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/Quadrant.o",
+    "swift-dependencies" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/Quadrant.swiftdeps",
+    "swiftmodule" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/Quadrant~partial.swiftmodule"
+  },
+  "/Users/chrislangseth/work/EisenMat/EisenMat/Models/Tag.swift" : {
+    "const-values" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/Tag.swiftconstvalues",
+    "dependencies" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/Tag.d",
+    "diagnostics" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/Tag.dia",
+    "index-unit-output-path" : "/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/Tag.o",
+    "llvm-bc" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/Tag.bc",
+    "object" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/Tag.o",
+    "swift-dependencies" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/Tag.swiftdeps",
+    "swiftmodule" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/Tag~partial.swiftmodule"
+  },
+  "/Users/chrislangseth/work/EisenMat/EisenMat/Models/TaskItem.swift" : {
+    "const-values" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/TaskItem.swiftconstvalues",
+    "dependencies" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/TaskItem.d",
+    "diagnostics" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/TaskItem.dia",
+    "index-unit-output-path" : "/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/TaskItem.o",
+    "llvm-bc" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/TaskItem.bc",
+    "object" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/TaskItem.o",
+    "swift-dependencies" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/TaskItem.swiftdeps",
+    "swiftmodule" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/TaskItem~partial.swiftmodule"
+  },
+  "/Users/chrislangseth/work/EisenMat/EisenMat/Shared/ModelContainer+Shared.swift" : {
+    "const-values" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/ModelContainer+Shared.swiftconstvalues",
+    "dependencies" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/ModelContainer+Shared.d",
+    "diagnostics" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/ModelContainer+Shared.dia",
+    "index-unit-output-path" : "/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/ModelContainer+Shared.o",
+    "llvm-bc" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/ModelContainer+Shared.bc",
+    "object" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/ModelContainer+Shared.o",
+    "swift-dependencies" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/ModelContainer+Shared.swiftdeps",
+    "swiftmodule" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/ModelContainer+Shared~partial.swiftmodule"
+  },
+  "/Users/chrislangseth/work/EisenMat/EisenMatWidget/DoQuadrantWidget.swift" : {
+    "const-values" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/DoQuadrantWidget.swiftconstvalues",
+    "dependencies" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/DoQuadrantWidget.d",
+    "diagnostics" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/DoQuadrantWidget.dia",
+    "index-unit-output-path" : "/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/DoQuadrantWidget.o",
+    "llvm-bc" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/DoQuadrantWidget.bc",
+    "object" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/DoQuadrantWidget.o",
+    "swift-dependencies" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/DoQuadrantWidget.swiftdeps",
+    "swiftmodule" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/DoQuadrantWidget~partial.swiftmodule"
+  },
+  "/Users/chrislangseth/work/EisenMat/EisenMatWidget/DoQuadrantWidgetView.swift" : {
+    "const-values" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/DoQuadrantWidgetView.swiftconstvalues",
+    "dependencies" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/DoQuadrantWidgetView.d",
+    "diagnostics" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/DoQuadrantWidgetView.dia",
+    "index-unit-output-path" : "/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/DoQuadrantWidgetView.o",
+    "llvm-bc" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/DoQuadrantWidgetView.bc",
+    "object" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/DoQuadrantWidgetView.o",
+    "swift-dependencies" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/DoQuadrantWidgetView.swiftdeps",
+    "swiftmodule" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/DoQuadrantWidgetView~partial.swiftmodule"
+  },
+  "/Users/chrislangseth/work/EisenMat/EisenMatWidget/TaskSnapshot.swift" : {
+    "const-values" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/TaskSnapshot.swiftconstvalues",
+    "dependencies" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/TaskSnapshot.d",
+    "diagnostics" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/TaskSnapshot.dia",
+    "index-unit-output-path" : "/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/TaskSnapshot.o",
+    "llvm-bc" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/TaskSnapshot.bc",
+    "object" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/TaskSnapshot.o",
+    "swift-dependencies" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/TaskSnapshot.swiftdeps",
+    "swiftmodule" : "/Users/chrislangseth/work/EisenMat/build/EisenMat.build/Debug-iphoneos/EisenMatWidget.build/Objects-normal/arm64/TaskSnapshot~partial.swiftmodule"
+  }
+}

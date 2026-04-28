@@ -1,0 +1,24 @@
+{
+  "source": "/Users/chrislangseth/work/EisenMat/EisenMatWidget/DoQuadrantWidget.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Do quadrant",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 65
+        }
+      },
+      {
+        "comment": "",
+        "key": "Your top urgent + important tasks.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 66
+        }
+      }
+    ]
+  },
+  "version": 1
+}

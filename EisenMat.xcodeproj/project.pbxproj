@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18B620EE668CB1DA04E9CBC5 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9DACE9477788E4AA71926 /* Tag.swift */; };
+		1E60729192BB3FA204583724 /* EisenMatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEEC82405A7B9D338ACDEBF /* EisenMatApp.swift */; };
+		269087582F8493DE42054C40 /* TagManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4ABC4F0546A593BB22D930 /* TagManagerView.swift */; };
+		2D5DBB40522226BA01D52007 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6C7152C34D0A7449FDC74B0 /* Preview Assets.xcassets */; };
+		2ED63B637C6F314D93C4DAEB /* NotificationSchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F116E81C96D6628EAD03AC /* NotificationSchedulerTests.swift */; };
+		353BE884AB52E08A6C2BF3B3 /* Quadrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E333DF850EB8C5F74810FA /* Quadrant.swift */; };
+		39C177B98AB66215E25A3006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2576838AC3342E7A21D8CF /* Assets.xcassets */; };
+		43BFC451D332D17844272D2A /* MatrixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B6A7732D3C394F50DFFB6 /* MatrixView.swift */; };
+		43E6DD0513B9E492C85A52CF /* Quadrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E333DF850EB8C5F74810FA /* Quadrant.swift */; };
+		5E758209A854101AA273F848 /* DoQuadrantWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8803113FDBE1F4FF6A52E754 /* DoQuadrantWidgetView.swift */; };
+		621DD2637929DDEDD2903A19 /* MatrixGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F05CEBEA287FA9BD162317 /* MatrixGridView.swift */; };
+		62FEFCB34576C88EC4BDBAB5 /* ModelContainer+Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8552C32A3E3C646F5F49C /* ModelContainer+Shared.swift */; };
+		6A86EB02DA8C111641DC65C2 /* TaskCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E09A4BA57DF11E4418E5AC3 /* TaskCard.swift */; };
+		6B3E6095A4A4752A60BD4F5D /* EisenMatWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 42D89C1F5DDDCA4A9C1ECCB9 /* EisenMatWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6FB313E5B46D6D60925C0E92 /* QuadrantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A379A5E04B34A7D312C013F /* QuadrantTests.swift */; };
+		7BD3AB7D9D5DC7BE983879C5 /* ModelContainer+Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8552C32A3E3C646F5F49C /* ModelContainer+Shared.swift */; };
+		7D35AEFFBCCC58CA74FE3519 /* ArchiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA4D0458AEFBEC54CF0BBC0 /* ArchiveView.swift */; };
+		AB93C2A25C90A9531AE11702 /* DoQuadrantWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2642717EE0317D02AF4CD9 /* DoQuadrantWidget.swift */; };
+		B98502665B8D2DAFEF8336D0 /* TaskSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBCCCCBCA57FB72DD6FCD6A /* TaskSnapshot.swift */; };
+		CE29B06F20727E396F163D96 /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DA48E1A0760F553E0E6768 /* TaskItem.swift */; };
+		D55AD460C220C01ADBE42D65 /* TaskDetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD0B23B60F70E0AA56B4D8C /* TaskDetailSheet.swift */; };
+		D61BFA27424565CE73706AF0 /* CompletedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA4422BFB7BD689039BFA6 /* CompletedView.swift */; };
+		D97D3A76B2507CEF7327813D /* TagFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F0E38D6A9BD345BF1F9655 /* TagFilterTests.swift */; };
+		E9CB0CCB2DA70E7636EC30D0 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A47E10D88BDD6C8EB34CE92 /* RootTabView.swift */; };
+		E9D1108060C4293C58C96062 /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DA48E1A0760F553E0E6768 /* TaskItem.swift */; };
+		F39F8B85CB80CD2CAE1AFA12 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9DACE9477788E4AA71926 /* Tag.swift */; };
+		F5DF23A41D8432F295077A7D /* NotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B6E6437B7BAF4A4AF66053 /* NotificationScheduler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CC3BB9365C1CB9D97A19AC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B78C92C4FEEA35E6F74F768 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DB053D73E6C338303444916;
+			remoteInfo = EisenMat;
+		};
+		B9E0D7E1628AFF211CF3C0FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B78C92C4FEEA35E6F74F768 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 824D42FE2732D5253BBF4813;
+			remoteInfo = EisenMatWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A0115F58066F2EA776971CF6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6B3E6095A4A4752A60BD4F5D /* EisenMatWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03A1675869A2015D6765B1A3 /* EisenMatTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = EisenMatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E09A4BA57DF11E4418E5AC3 /* TaskCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCard.swift; sourceTree = "<group>"; };
+		0F4ABC4F0546A593BB22D930 /* TagManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagManagerView.swift; sourceTree = "<group>"; };
+		16E333DF850EB8C5F74810FA /* Quadrant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quadrant.swift; sourceTree = "<group>"; };
+		19FA4422BFB7BD689039BFA6 /* CompletedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedView.swift; sourceTree = "<group>"; };
+		1B564D20C3FCE867496C70D2 /* EisenMat.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = EisenMat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DBCCCCBCA57FB72DD6FCD6A /* TaskSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSnapshot.swift; sourceTree = "<group>"; };
+		2A379A5E04B34A7D312C013F /* QuadrantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadrantTests.swift; sourceTree = "<group>"; };
+		2ACAFC7AAFB7EAA288608F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2EA4D0458AEFBEC54CF0BBC0 /* ArchiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveView.swift; sourceTree = "<group>"; };
+		42D89C1F5DDDCA4A9C1ECCB9 /* EisenMatWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = EisenMatWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		47B6E6437B7BAF4A4AF66053 /* NotificationScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationScheduler.swift; sourceTree = "<group>"; };
+		4DE9DACE9477788E4AA71926 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		56DA48E1A0760F553E0E6768 /* TaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
+		62F05CEBEA287FA9BD162317 /* MatrixGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixGridView.swift; sourceTree = "<group>"; };
+		6F4B6A7732D3C394F50DFFB6 /* MatrixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixView.swift; sourceTree = "<group>"; };
+		771E81B6A3B3115E85A8850D /* EisenMat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EisenMat.entitlements; sourceTree = "<group>"; };
+		8803113FDBE1F4FF6A52E754 /* DoQuadrantWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoQuadrantWidgetView.swift; sourceTree = "<group>"; };
+		9A2642717EE0317D02AF4CD9 /* DoQuadrantWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoQuadrantWidget.swift; sourceTree = "<group>"; };
+		9A47E10D88BDD6C8EB34CE92 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		9BEEC82405A7B9D338ACDEBF /* EisenMatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EisenMatApp.swift; sourceTree = "<group>"; };
+		9FA8552C32A3E3C646F5F49C /* ModelContainer+Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ModelContainer+Shared.swift"; sourceTree = "<group>"; };
+		A1F116E81C96D6628EAD03AC /* NotificationSchedulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSchedulerTests.swift; sourceTree = "<group>"; };
+		A64FA2AF452ADE61AB3CDDDF /* EisenMatWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EisenMatWidget.entitlements; sourceTree = "<group>"; };
+		CAD0B23B60F70E0AA56B4D8C /* TaskDetailSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailSheet.swift; sourceTree = "<group>"; };
+		D0F0E38D6A9BD345BF1F9655 /* TagFilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagFilterTests.swift; sourceTree = "<group>"; };
+		EC2576838AC3342E7A21D8CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6C7152C34D0A7449FDC74B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		13663ED47742A7A77A9F1544 /* EisenMatWidget */ = {
+			isa = PBXGroup;
+			children = (
+				9A2642717EE0317D02AF4CD9 /* DoQuadrantWidget.swift */,
+				8803113FDBE1F4FF6A52E754 /* DoQuadrantWidgetView.swift */,
+				A64FA2AF452ADE61AB3CDDDF /* EisenMatWidget.entitlements */,
+				2ACAFC7AAFB7EAA288608F9D /* Info.plist */,
+				1DBCCCCBCA57FB72DD6FCD6A /* TaskSnapshot.swift */,
+			);
+			path = EisenMatWidget;
+			sourceTree = "<group>";
+		};
+		488CF8B69B4BCC7ED39F8290 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				47B6E6437B7BAF4A4AF66053 /* NotificationScheduler.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		498901C7D1C4B25BA92A9042 /* Archive */ = {
+			isa = PBXGroup;
+			children = (
+				2EA4D0458AEFBEC54CF0BBC0 /* ArchiveView.swift */,
+			);
+			path = Archive;
+			sourceTree = "<group>";
+		};
+		4A41622E40B240CDFF13F1E7 /* Tags */ = {
+			isa = PBXGroup;
+			children = (
+				0F4ABC4F0546A593BB22D930 /* TagManagerView.swift */,
+			);
+			path = Tags;
+			sourceTree = "<group>";
+		};
+		524FB7B86B447F71BDE14727 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				9FA8552C32A3E3C646F5F49C /* ModelContainer+Shared.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		5C21D19EDA16B7F69CCE49B4 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				CAD0B23B60F70E0AA56B4D8C /* TaskDetailSheet.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		687A25DCA37ECC6DDA60EF62 = {
+			isa = PBXGroup;
+			children = (
+				D39C40904C3CCD9E31B93947 /* EisenMat */,
+				CC3A78133278FEF667F73D7A /* EisenMatTests */,
+				13663ED47742A7A77A9F1544 /* EisenMatWidget */,
+				F6CF4A0C71DB623A29A312DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76FEF68853A7A05A8DA98686 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A47E10D88BDD6C8EB34CE92 /* RootTabView.swift */,
+				498901C7D1C4B25BA92A9042 /* Archive */,
+				9217CB269CE0ACD6195A9E3E /* Completed */,
+				5C21D19EDA16B7F69CCE49B4 /* Detail */,
+				9A17E51BEAFD57BCD66045A0 /* Matrix */,
+				4A41622E40B240CDFF13F1E7 /* Tags */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9217CB269CE0ACD6195A9E3E /* Completed */ = {
+			isa = PBXGroup;
+			children = (
+				19FA4422BFB7BD689039BFA6 /* CompletedView.swift */,
+			);
+			path = Completed;
+			sourceTree = "<group>";
+		};
+		9A17E51BEAFD57BCD66045A0 /* Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				62F05CEBEA287FA9BD162317 /* MatrixGridView.swift */,
+				6F4B6A7732D3C394F50DFFB6 /* MatrixView.swift */,
+				0E09A4BA57DF11E4418E5AC3 /* TaskCard.swift */,
+			);
+			path = Matrix;
+			sourceTree = "<group>";
+		};
+		9F4880967EBEBE98DAEE3C6B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F6C7152C34D0A7449FDC74B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC3A78133278FEF667F73D7A /* EisenMatTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1F116E81C96D6628EAD03AC /* NotificationSchedulerTests.swift */,
+				2A379A5E04B34A7D312C013F /* QuadrantTests.swift */,
+				D0F0E38D6A9BD345BF1F9655 /* TagFilterTests.swift */,
+			);
+			path = EisenMatTests;
+			sourceTree = "<group>";
+		};
+		D39C40904C3CCD9E31B93947 /* EisenMat */ = {
+			isa = PBXGroup;
+			children = (
+				EC2576838AC3342E7A21D8CF /* Assets.xcassets */,
+				771E81B6A3B3115E85A8850D /* EisenMat.entitlements */,
+				9BEEC82405A7B9D338ACDEBF /* EisenMatApp.swift */,
+				E75A9056A681648A61A7E558 /* Models */,
+				9F4880967EBEBE98DAEE3C6B /* Preview Content */,
+				488CF8B69B4BCC7ED39F8290 /* Services */,
+				524FB7B86B447F71BDE14727 /* Shared */,
+				76FEF68853A7A05A8DA98686 /* Views */,
+			);
+			path = EisenMat;
+			sourceTree = "<group>";
+		};
+		E75A9056A681648A61A7E558 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				16E333DF850EB8C5F74810FA /* Quadrant.swift */,
+				4DE9DACE9477788E4AA71926 /* Tag.swift */,
+				56DA48E1A0760F553E0E6768 /* TaskItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F6CF4A0C71DB623A29A312DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B564D20C3FCE867496C70D2 /* EisenMat.app */,
+				03A1675869A2015D6765B1A3 /* EisenMatTests.xctest */,
+				42D89C1F5DDDCA4A9C1ECCB9 /* EisenMatWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DB053D73E6C338303444916 /* EisenMat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75FD1C853C336FD316553ADA /* Build configuration list for PBXNativeTarget "EisenMat" */;
+			buildPhases = (
+				3656EF5A76C08931110DD89C /* Sources */,
+				0383F8069E5AEB87A338A472 /* Resources */,
+				A0115F58066F2EA776971CF6 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC99795D3041D01F08DA338A /* PBXTargetDependency */,
+			);
+			name = EisenMat;
+			packageProductDependencies = (
+			);
+			productName = EisenMat;
+			productReference = 1B564D20C3FCE867496C70D2 /* EisenMat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		824D42FE2732D5253BBF4813 /* EisenMatWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769D7F28FB241FFF6D9C64E5 /* Build configuration list for PBXNativeTarget "EisenMatWidget" */;
+			buildPhases = (
+				6C4D7E386E3F9FC38765B9B4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EisenMatWidget;
+			packageProductDependencies = (
+			);
+			productName = EisenMatWidget;
+			productReference = 42D89C1F5DDDCA4A9C1ECCB9 /* EisenMatWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8FF3F32FCA4BAAB1FDA553CB /* EisenMatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8618081110BE325B52F23A /* Build configuration list for PBXNativeTarget "EisenMatTests" */;
+			buildPhases = (
+				32B44DB8220805AE080856B1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EA80C714A2C22EFA6DBE18D /* PBXTargetDependency */,
+			);
+			name = EisenMatTests;
+			packageProductDependencies = (
+			);
+			productName = EisenMatTests;
+			productReference = 03A1675869A2015D6765B1A3 /* EisenMatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B78C92C4FEEA35E6F74F768 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4DB053D73E6C338303444916 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+					824D42FE2732D5253BBF4813 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+					8FF3F32FCA4BAAB1FDA553CB = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 769237CC31309844FC6DDDF5 /* Build configuration list for PBXProject "EisenMat" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 687A25DCA37ECC6DDA60EF62;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F6CF4A0C71DB623A29A312DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DB053D73E6C338303444916 /* EisenMat */,
+				8FF3F32FCA4BAAB1FDA553CB /* EisenMatTests */,
+				824D42FE2732D5253BBF4813 /* EisenMatWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0383F8069E5AEB87A338A472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C177B98AB66215E25A3006 /* Assets.xcassets in Resources */,
+				2D5DBB40522226BA01D52007 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32B44DB8220805AE080856B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED63B637C6F314D93C4DAEB /* NotificationSchedulerTests.swift in Sources */,
+				6FB313E5B46D6D60925C0E92 /* QuadrantTests.swift in Sources */,
+				D97D3A76B2507CEF7327813D /* TagFilterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3656EF5A76C08931110DD89C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D35AEFFBCCC58CA74FE3519 /* ArchiveView.swift in Sources */,
+				D61BFA27424565CE73706AF0 /* CompletedView.swift in Sources */,
+				1E60729192BB3FA204583724 /* EisenMatApp.swift in Sources */,
+				621DD2637929DDEDD2903A19 /* MatrixGridView.swift in Sources */,
+				43BFC451D332D17844272D2A /* MatrixView.swift in Sources */,
+				62FEFCB34576C88EC4BDBAB5 /* ModelContainer+Shared.swift in Sources */,
+				F5DF23A41D8432F295077A7D /* NotificationScheduler.swift in Sources */,
+				43E6DD0513B9E492C85A52CF /* Quadrant.swift in Sources */,
+				E9CB0CCB2DA70E7636EC30D0 /* RootTabView.swift in Sources */,
+				18B620EE668CB1DA04E9CBC5 /* Tag.swift in Sources */,
+				269087582F8493DE42054C40 /* TagManagerView.swift in Sources */,
+				6A86EB02DA8C111641DC65C2 /* TaskCard.swift in Sources */,
+				D55AD460C220C01ADBE42D65 /* TaskDetailSheet.swift in Sources */,
+				E9D1108060C4293C58C96062 /* TaskItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4D7E386E3F9FC38765B9B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB93C2A25C90A9531AE11702 /* DoQuadrantWidget.swift in Sources */,
+				5E758209A854101AA273F848 /* DoQuadrantWidgetView.swift in Sources */,
+				7BD3AB7D9D5DC7BE983879C5 /* ModelContainer+Shared.swift in Sources */,
+				353BE884AB52E08A6C2BF3B3 /* Quadrant.swift in Sources */,
+				F39F8B85CB80CD2CAE1AFA12 /* Tag.swift in Sources */,
+				CE29B06F20727E396F163D96 /* TaskItem.swift in Sources */,
+				B98502665B8D2DAFEF8336D0 /* TaskSnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EA80C714A2C22EFA6DBE18D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DB053D73E6C338303444916 /* EisenMat */;
+			targetProxy = 8CC3BB9365C1CB9D97A19AC7 /* PBXContainerItemProxy */;
+		};
+		CC99795D3041D01F08DA338A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 824D42FE2732D5253BBF4813 /* EisenMatWidget */;
+			targetProxy = B9E0D7E1628AFF211CF3C0FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ADA64D3859056CF18EEEF30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.langseth.eisenmat.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EisenMat.app/EisenMat";
+			};
+			name = Debug;
+		};
+		169895214605188FEAAF2EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.langseth.eisenmat.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EisenMat.app/EisenMat";
+			};
+			name = Release;
+		};
+		2C3653192719D7A44F5BBAD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = EisenMatWidget/EisenMatWidget.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = EisenMatWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EisenMat;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.langseth.eisenmat.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		617020501461CF20929A9522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		67593A99B9EED1D8407DBD99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EisenMat/EisenMat.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = EisenMat;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.langseth.eisenmat;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BADE10A62D82CCAB075247B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		BC5CA3147455B4E07AE500A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EisenMat/EisenMat.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = EisenMat;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.langseth.eisenmat;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE625ACA6165F54192906886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = EisenMatWidget/EisenMatWidget.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = EisenMatWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EisenMat;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.langseth.eisenmat.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75FD1C853C336FD316553ADA /* Build configuration list for PBXNativeTarget "EisenMat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5CA3147455B4E07AE500A1 /* Debug */,
+				67593A99B9EED1D8407DBD99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		769237CC31309844FC6DDDF5 /* Build configuration list for PBXProject "EisenMat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617020501461CF20929A9522 /* Debug */,
+				BADE10A62D82CCAB075247B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		769D7F28FB241FFF6D9C64E5 /* Build configuration list for PBXNativeTarget "EisenMatWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C3653192719D7A44F5BBAD2 /* Debug */,
+				EE625ACA6165F54192906886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CE8618081110BE325B52F23A /* Build configuration list for PBXNativeTarget "EisenMatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ADA64D3859056CF18EEEF30 /* Debug */,
+				169895214605188FEAAF2EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B78C92C4FEEA35E6F74F768 /* Project object */;
+}

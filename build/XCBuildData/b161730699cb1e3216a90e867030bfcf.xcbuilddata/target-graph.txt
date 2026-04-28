@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'EisenMat' in project 'EisenMat'
+➜ Explicit dependency on target 'EisenMatWidget' in project 'EisenMat'
+Target 'EisenMatWidget' in project 'EisenMat' (no dependencies)

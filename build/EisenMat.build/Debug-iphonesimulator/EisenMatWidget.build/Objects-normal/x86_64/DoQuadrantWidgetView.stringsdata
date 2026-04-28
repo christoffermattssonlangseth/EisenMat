@@ -1,0 +1,24 @@
+{
+  "source": "/Users/chrislangseth/work/EisenMat/EisenMatWidget/DoQuadrantWidgetView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Nothing urgent & important.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "Do",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 12
+        }
+      }
+    ]
+  },
+  "version": 1
+}
