@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043DF712E0C222C99D39094B /* TaskDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB3CCDBC92A87E848CED386 /* TaskDot.swift */; };
 		18B620EE668CB1DA04E9CBC5 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9DACE9477788E4AA71926 /* Tag.swift */; };
 		1E60729192BB3FA204583724 /* EisenMatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEEC82405A7B9D338ACDEBF /* EisenMatApp.swift */; };
 		269087582F8493DE42054C40 /* TagManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4ABC4F0546A593BB22D930 /* TagManagerView.swift */; };
@@ -69,6 +70,7 @@
 
 /* Begin PBXFileReference section */
 		03A1675869A2015D6765B1A3 /* EisenMatTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = EisenMatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB3CCDBC92A87E848CED386 /* TaskDot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDot.swift; sourceTree = "<group>"; };
 		0E09A4BA57DF11E4418E5AC3 /* TaskCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCard.swift; sourceTree = "<group>"; };
 		0F4ABC4F0546A593BB22D930 /* TagManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagManagerView.swift; sourceTree = "<group>"; };
 		16E333DF850EB8C5F74810FA /* Quadrant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quadrant.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				62F05CEBEA287FA9BD162317 /* MatrixGridView.swift */,
 				6F4B6A7732D3C394F50DFFB6 /* MatrixView.swift */,
 				0E09A4BA57DF11E4418E5AC3 /* TaskCard.swift */,
+				0AB3CCDBC92A87E848CED386 /* TaskDot.swift */,
 			);
 			path = Matrix;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				269087582F8493DE42054C40 /* TagManagerView.swift in Sources */,
 				6A86EB02DA8C111641DC65C2 /* TaskCard.swift in Sources */,
 				D55AD460C220C01ADBE42D65 /* TaskDetailSheet.swift in Sources */,
+				043DF712E0C222C99D39094B /* TaskDot.swift in Sources */,
 				E9D1108060C4293C58C96062 /* TaskItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

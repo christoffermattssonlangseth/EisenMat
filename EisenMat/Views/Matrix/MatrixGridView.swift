@@ -5,10 +5,13 @@ struct MatrixGridView: View {
     @Query private var tasks: [TaskItem]
 
     var tagFilter: Tag?
+    var compact: Bool
     private let cardSize = CGSize(width: 118, height: 50)
+    private let dotSize = CGSize(width: 18, height: 18)
 
-    init(tagFilter: Tag?) {
+    init(tagFilter: Tag?, compact: Bool = false) {
         self.tagFilter = tagFilter
+        self.compact = compact
         if let tagID = tagFilter?.id {
             _tasks = Query(
                 filter: #Predicate<TaskItem> { t in
@@ -34,10 +37,18 @@ struct MatrixGridView: View {
                 quadrantTiles(in: geo.size)
                 axisLabels(in: geo.size)
                 ForEach(placed, id: \.task.id) { entry in
-                    TaskCard(task: entry.task)
-                        .frame(width: cardSize.width, height: cardSize.height)
-                        .position(x: entry.point.x, y: entry.point.y)
-                        .zIndex(Double(entry.stackIndex))
+                    Group {
+                        if compact {
+                            TaskDot(task: entry.task)
+                                .frame(width: dotSize.width, height: dotSize.height)
+                        } else {
+                            TaskCard(task: entry.task)
+                                .frame(width: cardSize.width, height: cardSize.height)
+                        }
+                    }
+                    .position(x: entry.point.x, y: entry.point.y)
+                    .zIndex(Double(entry.stackIndex))
+                    .transition(.scale.combined(with: .opacity))
                 }
             }
         }
@@ -70,7 +81,7 @@ struct MatrixGridView: View {
             groups[k]?.sort { $0.createdAt < $1.createdAt }
         }
 
-        let step: CGFloat = 10
+        let step: CGFloat = compact ? 6 : 10
         var result: [PlacedTask] = []
         result.reserveCapacity(tasks.count)
         for t in tasks {
@@ -89,12 +100,16 @@ struct MatrixGridView: View {
         return result
     }
 
+    private var halfX: CGFloat { (compact ? dotSize.width : cardSize.width) / 2 }
+    private var halfY: CGFloat { (compact ? dotSize.height : cardSize.height) / 2 }
+
     private func clampedX(_ x: Double, width: Double) -> Double {
-        max(cardSize.width / 2 + 6, min(width - cardSize.width / 2 - 6, x))
+        max(halfX + 6, min(width - halfX - 6, x))
     }
     private func clampedY(_ importance: Double, height: Double) -> Double {
         let raw = (1 - importance) * height
-        return max(cardSize.height / 2 + 28, min(height - cardSize.height / 2 - 6, raw))
+        let topMargin: CGFloat = compact ? 12 : 28
+        return max(halfY + topMargin, min(height - halfY - 6, raw))
     }
 
     @ViewBuilder

@@ -7,10 +7,11 @@ struct MatrixView: View {
     @State private var activeTagFilter: Tag?
     @State private var showTagManager = false
     @State private var showNewTaskSheet = false
+    @AppStorage("EisenMat.compactMode") private var compactMode: Bool = false
 
     var body: some View {
         NavigationStack {
-            MatrixGridView(tagFilter: activeTagFilter)
+            MatrixGridView(tagFilter: activeTagFilter, compact: compactMode)
                 .padding(.horizontal)
                 .padding(.vertical, 8)
                 .navigationTitle("EisenMat")
@@ -39,6 +40,15 @@ struct MatrixView: View {
                             Button("Manage tags…") { showTagManager = true }
                         } label: {
                             Image(systemName: "line.3.horizontal.decrease.circle")
+                        }
+                    }
+                    ToolbarItem(placement: .topBarTrailing) {
+                        Button {
+                            withAnimation(.spring(response: 0.4, dampingFraction: 0.75)) {
+                                compactMode.toggle()
+                            }
+                        } label: {
+                            Image(systemName: compactMode ? "rectangle.grid.2x2.fill" : "circle.grid.2x2")
                         }
                     }
                     ToolbarItem(placement: .topBarTrailing) {
