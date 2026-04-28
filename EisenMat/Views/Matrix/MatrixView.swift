@@ -91,10 +91,22 @@ private struct NewTaskSheet: View {
                         .font(.caption).foregroundStyle(.secondary)
                 }
                 Section {
-                    LabeledContent("Quadrant") {
-                        Text(derivedQuadrant.title)
-                            .font(.headline)
-                            .foregroundStyle(quadrantColor(derivedQuadrant))
+                    HStack(spacing: 10) {
+                        Image(systemName: derivedQuadrant.symbol)
+                            .font(.title3.weight(.bold))
+                            .foregroundStyle(.white)
+                            .frame(width: 36, height: 36)
+                            .background(derivedQuadrant.tint, in: RoundedRectangle(cornerRadius: 10))
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text(derivedQuadrant.title.uppercased())
+                                .font(.subheadline.weight(.heavy))
+                                .tracking(1.2)
+                                .foregroundStyle(derivedQuadrant.tint)
+                            Text(derivedQuadrant.subtitle)
+                                .font(.caption2)
+                                .foregroundStyle(.secondary)
+                        }
+                        Spacer()
                     }
                 }
             }
@@ -123,12 +135,4 @@ private struct NewTaskSheet: View {
         }
     }
 
-    private func quadrantColor(_ q: Quadrant) -> Color {
-        switch q {
-        case .doIt:     .orange
-        case .schedule: .blue
-        case .delegate: .purple
-        case .delete:   .gray
-        }
-    }
 }

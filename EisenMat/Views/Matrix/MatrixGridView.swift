@@ -29,16 +29,15 @@ struct MatrixGridView: View {
 
     var body: some View {
         GeometryReader { geo in
+            let placed = positionedTasks(in: geo.size)
             ZStack(alignment: .topLeading) {
                 quadrantTiles(in: geo.size)
                 axisLabels(in: geo.size)
-                ForEach(tasks) { task in
-                    TaskCard(task: task)
+                ForEach(placed, id: \.task.id) { entry in
+                    TaskCard(task: entry.task)
                         .frame(width: cardSize.width, height: cardSize.height)
-                        .position(
-                            x: clampedX(task.urgency * geo.size.width, width: geo.size.width),
-                            y: clampedY(task.importance, height: geo.size.height)
-                        )
+                        .position(x: entry.point.x, y: entry.point.y)
+                        .zIndex(Double(entry.stackIndex))
                 }
             }
         }
@@ -48,6 +47,46 @@ struct MatrixGridView: View {
                 .strokeBorder(Color.primary.opacity(0.06), lineWidth: 1)
         )
         .shadow(color: Color.black.opacity(0.06), radius: 14, x: 0, y: 6)
+    }
+
+    private struct PlacedTask {
+        let task: TaskItem
+        let point: CGPoint
+        let stackIndex: Int
+    }
+
+    private func positionedTasks(in size: CGSize) -> [PlacedTask] {
+        // Bucket tasks by 1%-rounded (urgency, importance) so visually-coincident
+        // ones get fanned out instead of stacking on the same pixel.
+        struct Bucket: Hashable { let u: Int; let i: Int }
+        var groups: [Bucket: [TaskItem]] = [:]
+        for t in tasks {
+            let key = Bucket(u: Int((t.urgency * 100).rounded()),
+                             i: Int((t.importance * 100).rounded()))
+            groups[key, default: []].append(t)
+        }
+        // Stable order within bucket: oldest first → newest on top.
+        for k in groups.keys {
+            groups[k]?.sort { $0.createdAt < $1.createdAt }
+        }
+
+        let step: CGFloat = 10
+        var result: [PlacedTask] = []
+        result.reserveCapacity(tasks.count)
+        for t in tasks {
+            let key = Bucket(u: Int((t.urgency * 100).rounded()),
+                             i: Int((t.importance * 100).rounded()))
+            let bucket = groups[key] ?? [t]
+            let n = bucket.count
+            let idx = bucket.firstIndex(where: { $0.id == t.id }) ?? 0
+            let centered = CGFloat(idx) - CGFloat(n - 1) / 2
+            let baseX = clampedX(t.urgency * size.width, width: size.width)
+            let baseY = clampedY(t.importance, height: size.height)
+            let p = CGPoint(x: baseX + centered * step,
+                            y: baseY + centered * step)
+            result.append(PlacedTask(task: t, point: p, stackIndex: idx))
+        }
+        return result
     }
 
     private func clampedX(_ x: Double, width: Double) -> Double {
